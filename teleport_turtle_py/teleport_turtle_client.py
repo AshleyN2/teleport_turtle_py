@@ -31,5 +31,8 @@ def main():
     minimal_client.destroy_node() #destroy the node explicitly (optional)
     rclpy.shutdown() #shutdown the ROS2 client library
 
+if __name__ == '__main__':    # run the main function when the script is executed
+    main()
+
 
   
