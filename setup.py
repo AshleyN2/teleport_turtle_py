@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'teleport_turtle_client = teleport_turtle_py.teleport_turtle_client:main',
         ],
     },
 )

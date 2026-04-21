@@ -7,10 +7,15 @@
   <maintainer email="ashleynjeri7@gmail.com">marvin</maintainer>
   <license>TODO: License declaration</license>
 
+<!-- This is the ROS2 Python client library, which provides the necessary tools and APIs to create ROS2 nodes, publishers, subscribers, services, and actions in Python. It is essential for our teleport_turtle_client.py script to function correctly, as it relies on rclpy to interact with the ROS2 ecosystem and communicate with the turtlesim service. --> 
+  <exec_depend>rclpy</exec_depend> 
+  <exec_depend>turtlesim</exec_depend>
+
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
   <test_depend>python3-pytest</test_depend>
+
 
   <export>
     <build_type>ament_python</build_type>
